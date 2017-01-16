@@ -1,0 +1,32 @@
+{
+  "name": "pinterest-clone",
+  "version": "1.0.0",
+  "description": "A pinterest clone with React js",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "pinterest",
+    "webpack"
+  ],
+  "author": "Sebastien LEON FLORES",
+  "license": "ISC",
+  "dependencies": {
+    "path": "^0.12.7",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-react": "^6.16.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
