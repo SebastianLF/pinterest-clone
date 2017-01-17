@@ -9,7 +9,9 @@ module.exports = {
     },
     module: {
       loaders: [
-        { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" }
+        { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
+        { test: /\.css$/, exclude: /node_modules/, loaders: ["style-loader" ,"css-loader"] },
+        { test: /\.(eot|svg|ttf|woff|woff2)$/, loader: 'file?name=public/fonts/[name].[ext]' }
       ]
     },
     devtool: 'source-map'
