@@ -1,1 +1,5 @@
 stack: React, redux, webpack, enzyme, react-bootstrap, masonry...
+
+use:
+  - DUCKS: https://github.com/erikras/ducks-modular-redux
+  -

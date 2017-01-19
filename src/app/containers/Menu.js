@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react'
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap'
-import './bootstrap/css/bootstrap.css'
+
 // createClass here is used intentionally.
 const Menu = React.createClass({
 

@@ -1,14 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Menu from './Menu'
-import Body from './Body'
+import Routes from './routes'
 
-const App = () => (
-  <div>
-    <Menu />
-    <Body />
-  </div>)
-
-ReactDOM.render(<App />, document.querySelector(".app"));
-
-export default App
+ReactDOM.render(<Routes />, document.querySelector(".app"));
